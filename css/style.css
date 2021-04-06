@@ -1,5 +1,7 @@
 .header-img {
     background-image: url(../img/1.png);
+    background-size: cover;
+    background-position: center;
     width: 1280px;
     height: 900px;
     background-repeat: no-repeat;
@@ -33,11 +35,20 @@
     font-size: 28px;
     font-weight: bold;
 }
-.bg-p-wraper {
-    width: 485px;
+.bg-h-wraper {
+    width: 540px;
     height: 90px;
     position: absolute;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
 }
+.bg-h {
+    font-size: 100px;
+    font-weight: lighter;
+    color: #FFFFFF;
+}
+.section-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* section2 */
